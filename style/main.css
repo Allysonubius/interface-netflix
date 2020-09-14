@@ -14,6 +14,7 @@
 body{
 	background: var(--preta);
 	font-family: 'Times New Roman', Times, serif;
+	color: white;
 }
 /*Class*/
 header .container{
@@ -23,7 +24,7 @@ header .container{
 	justify-content: space-between;
 }
 header .logo{
-	margin-left: 10px;
+	margin-left: 20px;
 	color: var(--vermelho);
 	font-family: 'Arial Black', Times;
 	font-size: 40px;
@@ -35,6 +36,26 @@ header nav a{
 }
 header nav a:hover{
 	color: var(--branco);
+}
+.menu{
+	margin-right: 20px;
+}
+/*Class filmes*/
+.filme-principal{
+	font-size: 16px;
+	background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0,.50)100%), url('../img/filmes/Mulan/mulan_2.jpg');
+	height:900px;	
+	background-size: cover/;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.filme-principal .descricao{
+	margin-bottom: 90px;
+}
+.titulo{
+	font-size: 70px;
 }
 /*ID's*/
 
