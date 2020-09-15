@@ -74,7 +74,7 @@ header nav a:hover{
 	font-size: 20px;
 	cursor: pointer;
 	transition: .3s;
-	border-radius: 40px;
+	border-radius: 100px;
 }
 .btn-filmes:hover{
 	background-color: white ;
