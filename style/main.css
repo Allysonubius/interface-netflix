@@ -46,10 +46,14 @@ header nav a:hover{
 	font-size: 26px;
 }
 /*Class filmes*/
+main div .container{
+	padding: 40px;
+}
 .filme-principal{
 	font-size: 16px;
 	background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0,.50)100%), url('../img/filmes/Mulan/mulan_2.jpg');
-	height:900px;	
+	margin: auto;
+	width: 95%;
 	background-size: cover/;
 	display: flex;
 	flex-direction: column;
