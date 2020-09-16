@@ -17,7 +17,7 @@ body{
 	color: white;
 }
 p{
-	font-size: 18px;
+	font-size: 20px;
 }
 /*Class*/
 header .container{
@@ -50,10 +50,9 @@ main div .container{
 	padding: 40px;
 }
 .filme-principal{
-	font-size: 16px;
 	background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0,.50)100%), url('../img/filmes/Mulan/mulan_2.jpg');
 	margin: auto;
-	width: 95%;
+	width: 83%;
 	background-size: cover/;
 	display: flex;
 	flex-direction: column;
@@ -61,12 +60,13 @@ main div .container{
 	align-items: flex-start;
 }
 .filme-principal .descricao{
-	margin-bottom: 90px;
+	margin-bottom: 80px;
 	margin-top: 20px ;
 }
 .titulo{
 	margin-top: 25%;
-	font-size: 70px;
+	margin-bottom: 3%;
+	font-size: 120px;
 	font-family: 'Trebuche MS', Arial, sans-serif;
 }
 .btn-filmes{
@@ -84,8 +84,26 @@ main div .container{
 	background-color: white ;
 	color: black;
 }
+main div .btn-center{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: 150px;
+}
+main div .description{
+	text-align: center;
+}
+main div .title{
+	text-align: center;
+}
 .btn i{
 	margin-right: 8px;
 }
 /*ID's*/
 
+/*OWN*/
+.box-filmes{
+	height: 100%;
+	width: 100%;
+	display: block;
+}

@@ -7,12 +7,21 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!--Viewport name-->
 	<meta name="viewport" content="width=device-width, initial-scale=2.0">
+	<!--Favicon-->
+	<link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
 	<!--Title-->
 	<title>NETFLIX</title>
 	<!--CSS-->
 	<link rel="stylesheet" href="style/main.css">
+    <!--own css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 	<!-- Place your kit's code here -->
     <script src="https://kit.fontawesome.com/e9b2ea5df6.js" crossorigin="anonymous"></script>
+    <!--OWL JS-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </head>
 <body>
 	<header id="header" class="">
@@ -32,9 +41,9 @@
 	<main>
 		<div class="filme-principal">
 			<div class="container">
-				<h3 class="titulo">Mulan</h3>
-				<p class="descricao">Hua Mulan é a espirituosa e determinada filha mais velha de um honrado guerreiro. Quando o Imperador da China emite um decreto que um homem de cada família deve servir no exército imperial, Mulan decide tomar o lugar de seu pai, que está doente. Assumindo a identidade de Hua Jun, ela se disfarça de homem para combater os invasores que estão atacando sua nação, provando-se uma grande guerreira.</p>
-				<div class="btn">
+				<h3 class="titulo title">Mulan</h3>
+				<p class="descricao description">Hua Mulan é a espirituosa e determinada filha mais velha de um honrado guerreiro. Quando o Imperador da China emite um decreto que um homem de cada família deve servir no exército imperial, Mulan decide tomar o lugar de seu pai, que está doente. Assumindo a identidade de Hua Jun, ela se disfarça de homem para combater os invasores que estão atacando sua nação, provando-se uma grande guerreira.</p>
+				<div class="btn btn-center">
 					<button class="btn-filmes" role="button" type=""> 
 						<i class="fas fa-play">   </i>
 						ASSISTIR AGORA 
@@ -47,5 +56,23 @@
 			</div>
 		</div>
 	</main>
+	<section id=owl-teste>
+		<div class="carrosel-filmes">
+			<div class="owl-carousel owl-theme">
+				<div class="item">
+					<img class="box-filmes" src="img/filmes/Onward/Onward.jpg" alt="Onward">
+					<h3>Onward</h3>
+				</div>
+				<div class="item">
+					<img class="box-filmes" src="img/filmes/The_old_guard/the_old_guard.jpg" alt="The Old Guard">
+					<h3>The Old Guard</h3>
+				</div>
+				<div class="item">
+					<img class="box-filmes" src="img/filmes/Dark/dark.jpg" alt="Dark">
+					<h3>Dark</h3>
+				</div>			
+			</div>
+		</div>
+	</section>
 </body>
 </html>
